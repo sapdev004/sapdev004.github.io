@@ -2,11 +2,14 @@
   <head>
     Universal Links TEST sapdev004
   </head>
-  <body onload="setTimeout("scrollToTop()", 3000);">
+  <body onload="openDelay()">
 <script type="text/javascript">
 function scrollToTop() {
 window.scrollTo(0,0);
 alert("open3000");
+}
+function openDelay() {
+setTimeout("scrollToTop()", 3000);
 }
 
 </script>
